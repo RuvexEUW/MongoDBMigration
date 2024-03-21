@@ -1,5 +1,5 @@
 package ch.gibs.mosd.m165.firmenverwaltung.io;
-//Gaygar
+
 import ch.gibs.mosd.m165.firmenverwaltung.model.Abteilung;
 import ch.gibs.mosd.m165.firmenverwaltung.model.Ort;
 import ch.gibs.mosd.m165.firmenverwaltung.model.Person;
