@@ -1,0 +1,12 @@
+ch\gibs\mosd\m165\firmenverwaltung\model\Ort.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\TabPersonen.class
+ch\gibs\mosd\m165\firmenverwaltung\model\Abteilung.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\SecondaryController.class
+ch\gibs\mosd\m165\firmenverwaltung\model\Person.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\mainGUI.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\TabProjekt.class
+ch\gibs\mosd\m165\firmenverwaltung\model\Projekt.class
+module-info.class
+ch\gibs\mosd\m165\firmenverwaltung\io\db.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\TabPersonenProjekt.class
+ch\gibs\mosd\m165\firmenverwaltung\gui\App.class

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.gibs.mosd.m165.firmenverwaltung.gui.mainGUI">
+   <children>
+      <TabPane prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="TabPerson" text="Personen">
+            <content>
+              <fx:include source="TabPersonen.fxml" />
+            </content>
+          </Tab>
+          <Tab fx:id="TabProjekte" text="Projekte">
+            <content>
+              <fx:include source="TabProjekte.fxml" />
+            </content>
+          </Tab>
+            <Tab fx:id="TabPersonen_Projekte" text="Personen-Projekt">
+              <content>
+                 <fx:include source="TabPersonenProjekt.fxml" />     
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
