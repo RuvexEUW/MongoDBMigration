@@ -4,6 +4,8 @@ import ch.gibs.mosd.m165.firmenverwaltung.model.Abteilung;
 import ch.gibs.mosd.m165.firmenverwaltung.model.Ort;
 import ch.gibs.mosd.m165.firmenverwaltung.model.Person;
 import ch.gibs.mosd.m165.firmenverwaltung.model.Projekt;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -20,6 +22,9 @@ public class db {
 
     private static void connect() {
         try {
+            String uri = "mongodb://localhost:27017";
+            MongoClient mongoClient = MongoClients.create(uri);
+            
             if ( db.c == null ) db.c = DriverManager.getConnection("jdbc:mysql://localhost:3306/m165firma","root", "");
 	}
         catch (Exception e) {
